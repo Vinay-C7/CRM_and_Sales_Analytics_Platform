@@ -88,7 +88,7 @@ select salesman_id, name, city, commission from salesman where commission > 0.11
 -- f] write a SQL query to find the details of those salespeople whose name starts with any letter within 'A' and 'L' (not inclusive). 
 -- Return salesman_id, name, city, commission.
 
-select salesman_id, name, city, commission from salesman where name between 'a%' and 'l%';
+Select salesman_id, name, city, commission from salesman where name >= 'B' AND name < 'L';
 
 -- g] write a SQL query to find the details of the customers whose name begins with the letter 'B'. 
 -- Return customer_id, cust_name, city, grade, salesman_id.
