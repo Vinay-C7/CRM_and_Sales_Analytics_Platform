@@ -4,7 +4,7 @@ create database sales;
 show databases;
 use sales;
 set sql_safe_updates=0;
--- Create the Table with the name: Sales1
+-- Create the Table with the name: Salesman
 -- Display all the data in the table
 
 Create table Salesman(
