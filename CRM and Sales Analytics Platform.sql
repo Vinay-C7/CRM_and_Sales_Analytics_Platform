@@ -81,7 +81,7 @@ select salesman_id, name, city, commission from salesman where city not in ('Par
 -- e] write a SQL query to find the details of salespeople who get the commission in the range from 0.12 to 0.14 (begin and end values are included). 
 -- Return salesman_id, name, city, and commission.
 
-select salesman_id, name, city, commission from salesman where commission between 0.11 and 0.15;
+select salesman_id, name, city, commission from salesman where commission between 0.12 and 0.14;
 --                                    OR
 select salesman_id, name, city, commission from salesman where commission > 0.11 and commission < 0.15;
 
